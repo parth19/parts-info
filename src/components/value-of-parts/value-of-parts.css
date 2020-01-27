@@ -1,0 +1,53 @@
+.submitPartsValueContainer {
+    flex:0.2;
+    justify-content: flex-end;
+    width: 100%;
+    align-items: flex-end;
+    display: flex;
+}
+
+.inputPartsValueContainer {
+    flex: 0.22;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 3px;
+    margin-bottom: 3px;
+} 
+
+
+
+.inputPartValueLabel {
+    font-size: 1.7em;
+    margin-right: 15px;
+}
+
+.inputPartValueTextbox {
+    flex: 0.5;
+    height: 50px;
+    border: 2px solid black;
+    font-size: 2em;
+}
+
+.PartsValueSection {
+    margin-top: 10px;
+    display: flex;
+    flex: 0.7;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+}
+.inputParts {
+    overflow-y: auto;
+    flex: 0.8;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    max-height: 400px; 
+}
+
